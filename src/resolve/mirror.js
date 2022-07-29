@@ -1,4 +1,4 @@
-import mirrorMap from 'unicode-9.0.0/Bidi_Mirroring_Glyph';
+import mirrorMap from '@unicode/unicode-9.0.0/Bidi_Mirroring_Glyph';
 
 // L4. "A character is depicted by a mirrored glyph if and only if
 // (a) the resolved directionality of that character is R, and

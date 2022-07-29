@@ -1,12 +1,12 @@
 import { resolvedLevelsWithInvisibles } from './resolve/resolvedLevels';
 import reorderedLevels, { reorderPermutation as perm } from './resolve/reorderedLevels';
-import lookupBidiType from 'unicode-bidiclass';
+import lookupBidiType from '@galkahana/unicode-bidiclass';
 import punycode from 'punycode';
 import { fromJS } from 'immutable';
 import openingBrackets from './util/openingBrackets';
 import closingBrackets from './util/closingBrackets';
 import oppositeBracket from './util/oppositeBracket';
-import mirrorMap from 'unicode-9.0.0/Bidi_Mirroring_Glyph';
+import mirrorMap from '@unicode/unicode-9.0.0/Bidi_Mirroring_Glyph';
 import mirrorCodepoints from './resolve/mirror';
 
 // Public API

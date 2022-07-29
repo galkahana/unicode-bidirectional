@@ -1,6 +1,6 @@
 import { resolvedLevelsWithInvisibles } from '../../../src/resolve/resolvedLevels';
 import { reorderPermutation } from '../../../src/resolve/reorderedLevels';
-import lookupBidiType from 'unicode-bidiclass';
+import lookupBidiType from '@galkahana/unicode-bidiclass';
 
 const fromJS = require('immutable').fromJS;
 const fs = require('fs');
